@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Sarah Cristina ❤️</title>
+</head>
+<body>
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  display: none;
+  place-items: center;
+  min-height: 100vh;
+}
+
+ul {
+  display: flex;
+  width: calc(80% - 2rem);
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+li {
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.2s ease;
+}
+
+ul:is(:hover, :focus-within) img {
+  opacity: calc(0.1 + (var(--active-lerp, 0) * 0.9));
+  filter: grayscale(calc(1 - var(--active-lerp, 0)));
+}
+
+:root {
+  --lerp-0: 1;
+  --lerp-1: 0.5787037;
+  --lerp-2: 0.2962963;
+  --lerp-3: 0.125;
+  --lerp-4: 0.037037;
+  --lerp-5: 0.0046296;
+  --lerp-6: 0;
+}
+
+a {
+  outline-offset: 4px;
+}
+
+li {
+  flex: calc(0.1 + (var(--active-lerp, 0) * 1));
+  transition: flex 0.2s ease;
+}
+
+li:is(:hover, :focus-within) {
+  --active-lerp: var(--lerp-0);
+  z-index: 7;
+}
+li:has( + li:is(:hover, :focus-within)),
+li:is(:hover, :focus-within) + li {
+  --active-lerp: var(--lerp-1);
+  z-index: 6;
+}
+li:has( + li + li:is(:hover, :focus-within)),
+li:is(:hover, :focus-within) + li + li {
+  --active-lerp: var(--lerp-2);
+  z-index: 5;
+}
+li:has( + li + li + li:is(:hover, :focus-within)),
+li:is(:hover, :focus-within) + li + li + li {
+  --active-lerp: var(--lerp-3);
+  z-index: 4;
+}
+li:has( + li + li + li + li:is(:hover, :focus-within)),
+li:is(:hover, :focus-within) + li + li + li + li {
+  --active-lerp: var(--lerp-4);
+  z-index: 3;
+}
+li:has( + li + li + li + li + li:is(:hover, :focus-within)),
+li:is(:hover, :focus-within) + li + li + li + li + li {
+  --active-lerp: var(--lerp-5);
+  z-index: 2;
+}
+li:has( + li + li + li + li + li + li:is(:hover, :focus-within)),
+li:is(:hover, :focus-within) + li + li + li + li + li + li {
+  --active-lerp: var(--lerp-6);
+  z-index: 1;
+}
+
+.message {
+    text-align: center;
+    margin: 5%;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+    font-size: 15pt;
+}
+
+.button {
+    margin: 15%;
+    background-color: blueviolet;
+    padding: 15px;
+    border-radius: 15px;
+    cursor:pointer;
+    border: 1px solid aquamarine;
+    color: white;
+
+}
+
+.button:hover {
+    background-color: aquamarine;
+    border: 1px solid blueviolet;
+    color: black;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+    </style>
+
+    <div class="message" id="message">
+        <div class="title">Para o amor da minha vida (vulgo Sarah Cristina)  </div>
+        <div class="button" id="button">
+            Clica aqui ❤️
+        </div>
+    </div>
+    <div class="content" id="content">
+
+        <h3>Te amo </h3>
+        <ul class="results">
+            <li class="result">
+              <a href="#"><img src="images/WhatsApp Image 2024-02-17 at 00.23.11.jpeg" width="500" height="500" alt=""></a>
+            </li>
+            <li class="result">
+              <a href="#"><img src="images/WhatsApp Image 2024-02-17 at 00.23.11(1).jpeg" width="500" height="500" alt=""></a>
+            </li>
+            <li class="result">
+              <a href="#"><img src="images/WhatsApp Image 2024-02-17 at 00.23.11(2).jpeg" width="500" height="500" alt=""></a>
+            </li>
+            <li class="result">
+              <a href="#"><img src="images/WhatsApp Image 2024-02-17 at 00.23.12(1).jpeg" width="500" height="500" alt=""></a>
+            </li>
+            <li class="result">
+              <a href="#"><img src="images/WhatsApp Image 2024-02-17 at 00.23.12(2).jpeg" width="500" height="500" alt=""></a>
+            </li>
+            <li class="result">
+              <a href="#"><img src="images/WhatsApp Image 2024-02-17 at 00.23.12(3).jpeg" width="500" height="500" alt=""></a>
+            </li>
+            <li class="result">
+              <a href="#"><img src="images/WhatsApp Image 2024-02-17 at 00.23.12(4).jpeg" width="500" height="500" alt=""></a>
+            </li>
+            <li class="result">
+              <a href="#"><img src="images/WhatsApp Image 2024-02-17 at 00.23.12.jpeg" width="500" height="500" alt=""></a>
+            </li>
+            <li class="result">
+              <a href="#"><img src="images/WhatsApp Image 2024-02-17 at 00.23.13.jpeg" width="500" height="500" alt=""></a>
+            </li>
+            <li class="result">
+              <a href="#"><img src="images/WhatsApp Image 2024-02-17 at 00.38.02.jpeg" width="500" height="500" alt=""></a>
+            </li>
+            <li class="result">
+              <a href="#"><img src="images/WhatsApp Image 2024-02-17 at 00.38.03(1).jpeg" width="500" height="500" alt=""></a>
+            </li>
+            <li class="result">
+              <a href="#"><img src="images/WhatsApp Image 2024-02-17 at 00.38.03(2).jpeg" width="500" height="500" alt=""></a>
+            </li>
+            <li class="result">
+                <a href="#"><img src="images/WhatsApp Image 2024-02-17 at 00.38.03(3).jpeg"500" height="500" alt=""></a>
+            </li>
+            <li class="result">
+                <a href="#"><img src="images/WhatsApp Image 2024-02-17 at 00.38.03(4).jpeg" width="500" height="500" alt=""></a>
+            </li>
+            <li class="result">
+                <a href="#"><img src="images/WhatsApp Image 2024-02-17 at 00.38.03(5).jpeg" width="500" height="500" alt=""></a>
+            </li>
+            <li class="result">
+                <a href="#"><img src="images/WhatsApp Image 2024-02-17 at 00.38.03.jpeg" width="500" height="500" alt=""></a>
+            </li>
+          </ul>
+    </div>
+    <script>
+        let button = document.getElementById("button");
+        let message = document.getElementById("message");
+        let content = document.getElementById("content")
+        button.addEventListener("click", open)
+        
+        function open() {
+            message.style.display = "none"
+            content.style.display = "grid"
+        }
+
+        setTimeout(open, 3000)
+    </script>
+</body>
+</html>
